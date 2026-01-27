@@ -524,7 +524,7 @@ class ISSTAFuzzer(FuzzENV):
     def build_graph(self) -> StateGraph:
 
 
-        llm_extract = ChatOpenAI(model="gpt-5.1-mini")
+        llm_extract = ChatOpenAI(model="gpt-5-mini")
         llm = self.load_model()
 
         # code formatter
